@@ -1248,6 +1248,11 @@ a:hover {
   .footer-right p {
     font-size: 0.85rem;
   }
+
+  .spacer {
+    min-height: auto;
+    padding: 0.5rem 0rem;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -1365,6 +1370,39 @@ a:hover {
   h2 {
     font-size: 1.7rem;
   }
+
+  .internship-text, .company-textm, .workflow-container{
+    padding: 0.5rem;
+  }
+
+  .body, .abstract, .acknowledgment {
+    padding: 1rem;
+  }
+
+  .features-title {
+    font-size: 1.5rem;
+    margin: 2rem 0rem;
+  }
+
+  .ui-features-container {
+    padding: 0rem;
+  }
+
+  .problem-heading {
+    font-size: 1rem;
+  }
+
+  .problem-card h3, .solution-card h3 {
+    font-size: 1rem;
+  }
+
+  .problem-card p, .solution-card p {
+    font-size: 0.9rem;
+  }
+
+  .footer-right h3, .footer-right p {
+    margin: 0.5rem 0;
+  }
 }
 
 @media (max-width: 560px) {
@@ -1429,5 +1467,19 @@ a:hover {
 
   .tools-section {
     padding: 2rem;
+  }
+
+  .problem-heading {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .feature-item h3 {
+    font-size: 0.85rem;
+  }
+
+  .feature-item p {
+    font-size: 0.8rem;
   }
 }
