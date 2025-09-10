@@ -1380,13 +1380,13 @@ a:hover {
     max-height: 200px;
   }
 
-  .tech-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-
   .tech-card {
     padding: 0rem;
     padding-top: 0.5rem;
+  }
+
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 
   .footer-content {
@@ -1419,6 +1419,11 @@ a:hover {
   }
 
   .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1rem;
+  }
+  
+  .tech-card h3 {
+    font-size: 0.75rem;
   }
 }
